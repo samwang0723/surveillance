@@ -10,6 +10,7 @@ apk --no-cache add bash build-base ca-certificates clang-dev clang cmake coreuti
 
 ln -s /usr/bin/python3 /usr/local/bin/python
 ln -s /usr/bin/pip3 /usr/local/bin/pip
+apk add py3-pip
 pip install --upgrade pip
 
 ln -s /usr/include/locale.h /usr/include/xlocale.h
